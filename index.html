@@ -300,7 +300,7 @@
             <div class="container">
                 <div class="row">
                      <div class="pricing__description">
-                    <h4 class="features__heading"><span class="purple">PRICING</span></h4>
+                    <h4 class="section__tag"><span class="purple">PRICING</span></h4>
                     <h1 class="section__title">
                         <b>Reasonable & Flexible <span class="purple">Plans.</span></b>
                     </h1>
@@ -323,11 +323,11 @@
                     </div>
                     <div class="plan__middle">
                         <div class="plan__target">
-                            <p>For Indivuals</p>
-                            <p>30 Templates</p>
-                            <p>7 Landing Pages</p>
-                            <p>12 Internal Pages</p>
-                            <p>Basic Assistance</p>
+                            <p class="plan__feature">For Indivuals</p>
+                            <p class="plan__feature">30 Templates</p>
+                            <p class="plan__feature">7 Landing Pages</p>
+                            <p class="plan__feature">12 Internal Pages</p>
+                            <p class="plan__feature">Basic Assistance</p>
                         </div>
                     </div>
                     <div class="plan__bottom">
@@ -352,11 +352,11 @@
                     </div>
                     <div class="plan__middle">
                         <div class="plan__target">
-                            <p>For Small Businesses</p>
-                            <p>60 Templates</p>
-                            <p>15 Landing Pages</p>
-                            <p>22 Internal Pages</p>
-                            <p>Priority Assistance</p>
+                            <p class="plan__feature">For Small Businesses</p>
+                            <p class="plan__feature">60 Templates</p>
+                            <p class="plan__feature">15 Landing Pages</p>
+                            <p class="plan__feature">22 Internal Pages</p>
+                            <p class="plan__feature">Priority Assistance</p>
                         </div>
                     </div>
                     <div class="plan__bottom">
@@ -381,17 +381,15 @@
                     </div>
                     <div class="plan__middle">
                         <div class="plan__target">
-                            <p>For Large Companies</p>
-                            <p>90 Templates</p>
-                            <p>27 Landing Pages</p>
-                            <p>37 Internal Pages</p>
-                            <p>Personal Assistance</p>
+                            <p class="plan__feature">For Large Companies</p>
+                            <p class="plan__feature">90 Templates</p>
+                            <p class="plan__feature">27 Landing Pages</p>
+                            <p class="plan__feature">37 Internal Pages</p>
+                            <p class="plan__feature">Personal Assistance</p>
                         </div>
                     </div>
                     <div class="plan__bottom">
-                        <div class="plan__btn">
-                            <button class="plan__button">Buy Now</button>
-                        </div>
+                    <button class="plan__button">Buy Now</button>
                     </div>
                     </div>
                 </div>
@@ -400,21 +398,20 @@
         <section id="testimonials">
             <div class="container">
                 <div class="row">
-                    <figure class="steps__img--wrapper">
-                    <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" class="quality__img" alt="">
-                    </figure>
-                    <div class="steps__description">
-                    <h4 class="steps__header"><span class="purple">TESTIMONIALS</span></h4>
-                    <h1 class="steps__title">
+                    <div class="testimonials__description">
+                    <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt class="testimonials__img">
+                    <h4 class="section__tag"><span class="purple">TESTIMONIALS</span></h4>
+                    <h1 class="section__title">
                         <b>Our Clients<span class="purple">Love Us.</span></b>
                     </h1>
-                    <p class="pricing__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure atque ratione in impedit nihil incidunt labore quo repellat ea animi. Earum voluptatem, illo quod ut repellendus consequatur eos dolorem excepturi.</p>
-                                        <div class="testimonial__rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <p class="section__para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure atque ratione in impedit nihil incidunt labore quo repellat ea animi. Earum voluptatem, illo quod ut repellendus consequatur eos dolorem excepturi.</p>
+                    <div class="testimonial">
+                    <div class="testimonial__rating">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star" aria-hidden="true"></i>
                     </div>
                     <h4 class="testimonial__title">
                      Amazing User Expreience
@@ -422,26 +419,42 @@
                     <p class="testimonial__para">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestiae voluptatem vel dolor architecto nemo earum sapiente, qui quis iste perferendis eos suscipit! Sapiente labore commodi, voluptate hic natus fugiat.
                     </p>
-                    <div class="testimonial">
-                        <img src="assets/photo-1494790108377-be9c29b29330.avif" alt="" class="picture">
-                        <h3 class="name">Charlotte Hale</h3>
-                        <h4 class="title">Director. Delos Inc.</h4>
+                    <div class="testimonial__profile">
+                        <img src="assets/photo-1494790108377-be9c29b29330.avif" alt="" class="testimonial__img">
+                        <div class="testimonial__details">
+                        <h3 class="testimonial__name">Charlotte Hale</h3>
+                        <h4 class="testimonial__role">Director. Delos Inc.</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial__buttons">
+                        <button class="testimonial__button">
+                            <div class="divider"></div>
+                        </button>
+                        <button class="testimonial__button">
+                            <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                            <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </button>
                     </div>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
         <section id="start">
             <div class="container">
                 <div class="row">
-                  <h1 class="header">Developers all over the world are happily using Treact.
-                    <button class="start__btn--a">
-                        Get Started
-                    </button>
-                    <button class="start__btn--b">Contact Us</button>
-                  </h1>
-                </div>
-            </div>
+                    <div class="start__container">
+                        <div class="start__row">
+                            <div class="start__title">
+                                Developers all over the world are happily using Treact.
+                            </div>
+                        <div class="start__buttons">
+                            <button class="start__button btn">Get Started</button>
+                            <button class="start__button btn">Contact Us</button>
+                        </div>
+                        </div>
+                    </div>
         </section>
     </main>
     <footer>
@@ -486,14 +499,19 @@
                     <div class="footer__divider"></div>
                     <div class="footer__bottom">
                         <div class="footer__info">
-                            <div class="footer__logo"></div>
+                            <div class="footer__logo">
+                                <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="" class="footer__logo--img">
+                                <h5 class="footer__logo--text">Treact Inc.</h5>
+                            </div>
                             <div class="footer__copyright">
                                 © 2018 Treact Inc. All Rights Reserved.
                             </div>
                             <div class="footer__socials">
-                                <a href="" class="footer__social--link"></a>
-                                <a href="" class="footer__social--link"></a>
-                                <a href="" class="footer__social--link"></a>
+                                <a class="footer__social--link">
+                                <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path>
+                                </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
