@@ -983,6 +983,16 @@ footer {
     align-items: center;
 }
 
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo--img {
+    height: 32px;
+    width: 32px;
+}
+
 .footer__column--link {
     color: #f7fafc;
     font-size: 14px;
@@ -997,18 +1007,6 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.links {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.link {
-    display: flex;
-    flex-direction: column;
-    width: calc(100% / 5);
-    align-items: center;
 }
 
 .footer__logo--text {
