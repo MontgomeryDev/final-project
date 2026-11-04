@@ -1431,6 +1431,10 @@ h1 {
     margin-right: 0px;
     align-items: center;
   }
+  .values__group {
+    align-items: center;
+    justify-content: center;
+  }
   #pricing .row {
     margin-top: 40px;
   }
