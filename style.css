@@ -631,8 +631,12 @@ VALUES ↓
     flex-direction: row;
 }
 
-.value:nth-child(1) .value__img--wrapper {
+.values:nth-child(1) .values__img--wrapper {
     background-color: #9ae6b4;
+}
+
+.values:nth-child(2) .values__img--wrapper {
+   background-color: #feb2b2;
 }
 
 .values__description {
