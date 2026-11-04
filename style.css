@@ -532,7 +532,13 @@ STEPS ↓
 .step {
     display: flex;
     align-items: flex-start;
-    margin-top: 32px;
+    margin: 20px 0;
+}
+
+.step__row {
+    width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 .steps__list {
@@ -551,6 +557,7 @@ STEPS ↓
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
+    margin-right: 16px;
 }
 
 .step__title {
@@ -579,6 +586,10 @@ STEPS ↓
     z-index: -10;
     color: rgb(100, 21, 255);
     fill: currentColor;
+}
+
+.step__text {
+    flex-grow: 1;
 }
 
 /* 
