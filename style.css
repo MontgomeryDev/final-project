@@ -536,7 +536,6 @@ STEPS ↓
 }
 
 .step__row {
-    width: 20%;
     display: flex;
     justify-content: center;
 }
@@ -547,7 +546,6 @@ STEPS ↓
 }
 
 .step__row {
-    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -646,6 +644,10 @@ VALUES ↓
     font-size: 20px;
     font-weight: bold;
     color: #243e63;
+}
+
+.values__group {
+    display: flex;
 }
 
 .values__para {
@@ -762,11 +764,6 @@ PRICING ↓
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
-.plan:nth-child(2) .plan:nth-child(2) .plan__button {
-    color: #f7fafc;
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-
 .plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
@@ -859,7 +856,7 @@ PRICING ↓
 
 .plan:nth-child(2) .plan__button {
     color: #6415ff;
-    background-color: #f7fafc;
+    background: #f7fafc;
     padding: 12px 24px;
     font-size: 20px;
     border-radius: 4px;
