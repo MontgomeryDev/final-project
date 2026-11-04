@@ -1230,11 +1230,14 @@ MOBILE RESPONSIVENESS ↓
     footer {
         padding: 80px 32px;
     }
+    .features .row {
+        max-width: 768px;
+    }
 }
 
 @media(max-width: 768px) {
     #quality .row,
-    #values .row {
+    #values .row__narrow {
         flex-direction: column-reverse;
     }
     #steps .row,
@@ -1244,6 +1247,10 @@ MOBILE RESPONSIVENESS ↓
     }
     #pricing .row {
         margin-top: 40px;
+    }
+    .features .row__narrow {
+        justify-content: center;
+        max-width: 768px;
     }
 }
 
